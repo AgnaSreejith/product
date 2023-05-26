@@ -11,7 +11,7 @@ export default function AddItem() {
     console.log(data);
 
     try{
-      await axios.post("http://localhost:8745/api/products",data);
+      await axios.post("http://localhost:8745/product",data);
     }
     catch(error)
     {
